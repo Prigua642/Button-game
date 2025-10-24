@@ -1,0 +1,104 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 5px;
+    background-color: black;
+}
+body {
+    background-color: chocolate;
+    padding: 0px;
+    margin: 0px;
+}
+h2 {
+    color: white;
+}
+a {
+    color: white;
+}
+#startmenu{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+height: 80vh;
+gap: 20px;
+}
+
+#startmenu h2, #startmenu p {
+    margin: 0;
+}
+
+#startmenu h2 {
+    font-size: 300%;
+}
+
+
+#game{
+    display: none;
+
+}
+
+main h1{
+
+display: flex;
+justify-content:center;
+align-items: center;
+height: 90vh;
+
+}
+
+#btncontanor{
+
+display: flex;
+flex-wrap:wrap;
+width: 100%;
+min-height: 70vh;
+justify-content: space-between;
+gap:10px;
+align-items:center ;
+
+}
+
+#btncontanor button{
+
+padding: 40px 8px;
+
+border-radius: 50%;
+
+transition: all 0.3s;
+
+}
+
+#livesPara{
+
+text-align: center;
+
+}
+
+#btncontanor button:hover {
+      background-color:rgb(212, 81, 0);
+      color: white;
+    }
+
+#paragraph{
+
+text-align: center;
+
+}
+
+#startbutton{
+
+padding: 10px;
+
+}
+
+#passSec{
+
+margin: 4% 0;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+
+}
